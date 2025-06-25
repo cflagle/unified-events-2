@@ -1,0 +1,12 @@
+[24-Jun-2025 22:41:13 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[25-Jun-2025 16:46:38 UTC] PHP Fatal error:  Uncaught Exception: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE' in /home/wsd/public_html/leads/33/src/Utilities/Database.php:80
+Stack trace:
+#0 /home/wsd/public_html/leads/33/src/Utilities/Database.php(89): UnifiedEvents\Utilities\Database->query('SELECT * FROM `...', Array)
+#1 /home/wsd/public_html/leads/33/src/Utilities/Database.php(209): UnifiedEvents\Utilities\Database->queryRow('SELECT * FROM `...', Array)
+#2 /home/wsd/public_html/leads/33/test-ac.php(32): UnifiedEvents\Utilities\Database->findOne('events', Array)
+#3 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Utilities/Database.php on line 80

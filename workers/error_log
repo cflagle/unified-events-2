@@ -1,0 +1,66 @@
+[24-Jun-2025 22:54:13 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[24-Jun-2025 22:55:02 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[24-Jun-2025 22:56:02 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[24-Jun-2025 22:57:02 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[24-Jun-2025 23:00:01 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/retry-failed.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/retry-failed.php on line 137
+[24-Jun-2025 23:02:05 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:169
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 169
+[24-Jun-2025 23:15:01 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/retry-failed.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/retry-failed.php on line 137
+[24-Jun-2025 23:30:01 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/retry-failed.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/retry-failed.php on line 137
+[24-Jun-2025 23:45:01 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/retry-failed.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/retry-failed.php on line 137
+[25-Jun-2025 00:00:02 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/retry-failed.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/retry-failed.php on line 137
+[25-Jun-2025 03:00:01 America/New_York] PHP Fatal error:  Uncaught Error: Class "ProcessingQueue" not found in /home/wsd/public_html/leads/33/workers/cleanup.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/wsd/public_html/leads/33/workers/cleanup.php on line 117
+[25-Jun-2025 12:50:32 America/New_York] PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/wsd/public_html/leads/33/src/Utilities/../../logs/errors-2025-06-25.log" could not be opened in append mode: Failed to open stream: Permission denied
+The exception occurred while attempting to log: Fatal error in worker loop
+Context: {"worker_id":"host03.trklvr.com_60885_685c28b9a19f6","error":"The stream or file \"\/home\/wsd\/public_html\/leads\/33\/src\/Utilities\/..\/..\/logs\/errors-2025-06-25.log\" could not be opened in append mode: Failed to open stream: Permission denied\nThe exception occurred while attempting to log: Exception processing job\nContext: {\"worker_id\":\"host03.trklvr.com_60885_685c28b9a19f6\",\"job_id\":36,\"error\":\"The stream or file \\\"\\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/src\\\/Utilities\\\/..\\\/..\\\/logs\\\/errors-2025-06-25.log\\\" could not be opened in append mode: Failed to open stream: Permission denied\\nThe exception occurred while attempting to log: Queue job processing failed\\nContext: {\\\"job_id\\\":36,\\\"error\\\":\\\"The stream or file \\\\\\\"\\\\\\\/home\\\\\\\/wsd\\\\\\\/public_html\\\\\\\/leads\\\\\\\/33\\\\\\\/src\\\\\\\/Utilities\\\\\\\/..\\\\\\\/..\\\\\\\/logs\\\\\\\/errors-2025-06-25.log\\\\\\\" could not be opened in append mode: Failed to open stream: Permission denied\\\\nThe exception occurred while attempting to log: ActiveCampaign general error\\\\nContext: {\\\\\\\"email\\\\\\\":\\\\\\\"cdflagle@gmail.com\\\\\\\",\\\\\\\"error\\\\\\\":\\\\\\\"cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received (see https:\\\\\\\\\\\\\\\/\\\\\\\\\\\\\\\/curl.haxx.se\\\\\\\\\\\\\\\/libcurl\\\\\\\\\\\\\\\/c\\\\\\\\\\\\\\\/libcurl-errors.html) for https:\\\\\\\\\\\\\\\/\\\\\\\\\\\\\\\/rif868.api-us1.com\\\\\\\\\\\\\\\/admin\\\\\\\\\\\\\\\/api.php?api_key=222513def0a1b0a53f1b242f87504b9c14bbf6ab5968305bf070e40dfc2787a76f08768a&api_action=contact_sync&api_output=serialize\\\\\\\"}\\\"}\",\"trace\":\"#0 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/vendor\\\/monolog\\\/monolog\\\/src\\\/Monolog\\\/Handler\\\/RotatingFileHandler.php(110): Monolog\\\\Handler\\\\StreamHandler->write(Object(Monolog\\\\LogRecord))\\n#1 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/vendor\\\/monolog\\\/monolog\\\/src\\\/Monolog\\\/Handler\\\/AbstractProcessingHandler.php(44): Monolog\\\\Handler\\\\RotatingFileHandler->write(Object(Monolog\\\\LogRecord))\\n#2 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/vendor\\\/monolog\\\/monolog\\\/src\\\/Monolog\\\/Logger.php(391): Monolog\\\\Handler\\\\AbstractProcessingHandler->handle(Object(Monolog\\\\LogRecord))\\n#3 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/vendor\\\/monolog\\\/monolog\\\/src\\\/Monolog\\\/Logger.php(646): Monolog\\\\Logger->addRecord(Object(Monolog\\\\Level), 'Queue job proce...', Array)\\n#4 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/src\\\/Utilities\\\/Logger.php(117): Monolog\\\\Logger->error('Queue job proce...', Array)\\n#5 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/src\\\/Services\\\/EventProcessor.php(217): UnifiedEvents\\\\Utilities\\\\Logger->error('Queue job proce...', Array)\\n#6 \\\/home\\\/wsd\\\/public_html\\\/leads\\\/33\\\/workers\\\/queue-processor.php(153): UnifiedEvents\\\\Services\\\\EventProcessor->processQueuedJob(Object(UnifiedEvents\\\\Models\\\\ProcessingQueue))\\n#7 {main}\"}","trace":"#0 \/home\/wsd\/public_html\/leads\/33\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/RotatingFileHandler.php(110): Monolog\\Handler\\StreamHandler->write(Object(Monolog\\LogRecord))\n#1 \/home\/wsd\/public_html\/leads\/33\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/AbstractProcessingHandler.php(44): Monolog\\Handler\\RotatingFileHandler->write(Object(Monolog\\LogRecord))\n#2 \/home\/wsd\/public_html\/leads\/33\/vendor\/monolog\/monolog\/src\/Monolog\/Logger.php(391): Monolog\\Handler\\AbstractProcessingHandler->handle(Object(Monolog\\LogRecord))\n#3 \/home\/wsd\/public_html\/leads\/33\/vendor\/monolog\/monolog\/src\/Monolog\/Logger.php(646): Monolog\\Logger->addRecord(Object(Monolog\\Level), 'Exception proce...', Array)\n#4 \/home\/wsd\/public_html\/leads\/33\/src\/Utilities\/Logger.php(117): Monolog\\Logger->error('Exception proce...', Array)\n#5 \/home\/wsd\/public_html\/leads\/33\/workers\/queue-processor.php(180): UnifiedEvents\\Utilities\\Logger->error('Exception proce...', Array)\n#6 {main}"} in /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:156
+Stack trace:
+#0 /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(110): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#1 /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\RotatingFileHandler->write(Object(Monolog\LogRecord))
+#2 /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Logger.php(391): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Logger.php(646): Monolog\Logger->addRecord(Object(Monolog\Level), 'Fatal error in ...', Array)
+#4 /home/wsd/public_html/leads/33/src/Utilities/Logger.php(117): Monolog\Logger->error('Fatal error in ...', Array)
+#5 /home/wsd/public_html/leads/33/workers/queue-processor.php(208): UnifiedEvents\Utilities\Logger->error('Fatal error in ...', Array)
+#6 {main}
+  thrown in /home/wsd/public_html/leads/33/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 156
+[25-Jun-2025 12:58:03 America/New_York] PHP Fatal error:  Uncaught Error: Class "UnifiedEvents\Models\ProcessingLog" not found in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php:176
+Stack trace:
+#0 /home/wsd/public_html/leads/33/workers/queue-processor.php(153): UnifiedEvents\Services\EventProcessor->processQueuedJob(Object(UnifiedEvents\Models\ProcessingQueue))
+#1 {main}
+  thrown in /home/wsd/public_html/leads/33/src/Services/EventProcessor.php on line 176
