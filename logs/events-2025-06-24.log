@@ -1,0 +1,1303 @@
+2025-06-24 22:18:15, [unified-events], ERROR, Query failed, {"sql":"SELECT COUNT(*) as count FROM `rate_limit` WHERE `0` = :0 AND `1` = :1","params":[["identifier","=","64.91.254.36"],["created_at",">=","2025-06-24 21:18:15"]],"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'"}
+2025-06-24 22:18:15, [unified-events], ERROR, Uncaught exception in API, {"message":"Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'","file":"/home/wsd/public_html/leads/33/src/Utilities/Database.php","line":80,"trace":"#0 /home/wsd/public_html/leads/33/src/Utilities/Database.php(89): UnifiedEvents\\Utilities\\Database->query('SELECT COUNT(*)...', Array)\n#1 /home/wsd/public_html/leads/33/src/Utilities/Database.php(269): UnifiedEvents\\Utilities\\Database->queryRow('SELECT COUNT(*)...', Array)\n#2 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(121): UnifiedEvents\\Utilities\\Database->count('rate_limit', Array)\n#3 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(59): checkRateLimitDatabase('64.91.254.36', NULL, Array)\n#4 /home/wsd/public_html/leads/33/api/index.php(115): checkRateLimit()\n#5 {main}"}
+2025-06-24 22:18:43, [unified-events], ERROR, Query failed, {"sql":"SELECT COUNT(*) as count FROM `rate_limit` WHERE `0` = :0 AND `1` = :1","params":[["identifier","=","64.91.254.36"],["created_at",">=","2025-06-24 21:18:43"]],"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'"}
+2025-06-24 22:18:43, [unified-events], ERROR, Uncaught exception in API, {"message":"Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'","file":"/home/wsd/public_html/leads/33/src/Utilities/Database.php","line":80,"trace":"#0 /home/wsd/public_html/leads/33/src/Utilities/Database.php(89): UnifiedEvents\\Utilities\\Database->query('SELECT COUNT(*)...', Array)\n#1 /home/wsd/public_html/leads/33/src/Utilities/Database.php(269): UnifiedEvents\\Utilities\\Database->queryRow('SELECT COUNT(*)...', Array)\n#2 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(121): UnifiedEvents\\Utilities\\Database->count('rate_limit', Array)\n#3 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(59): checkRateLimitDatabase('64.91.254.36', NULL, Array)\n#4 /home/wsd/public_html/leads/33/api/index.php(115): checkRateLimit()\n#5 {main}"}
+2025-06-24 22:21:41, [unified-events], ERROR, Query failed, {"sql":"SELECT COUNT(*) as count FROM `rate_limit` WHERE `0` = :0 AND `1` = :1","params":[["identifier","=","64.91.254.36"],["created_at",">=","2025-06-24 21:21:41"]],"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'"}
+2025-06-24 22:21:41, [unified-events], ERROR, Uncaught exception in API, {"message":"Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'WHERE'","file":"/home/wsd/public_html/leads/33/src/Utilities/Database.php","line":80,"trace":"#0 /home/wsd/public_html/leads/33/src/Utilities/Database.php(89): UnifiedEvents\\Utilities\\Database->query('SELECT COUNT(*)...', Array)\n#1 /home/wsd/public_html/leads/33/src/Utilities/Database.php(269): UnifiedEvents\\Utilities\\Database->queryRow('SELECT COUNT(*)...', Array)\n#2 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(121): UnifiedEvents\\Utilities\\Database->count('rate_limit', Array)\n#3 /home/wsd/public_html/leads/33/api/middleware/rate-limit.php(59): checkRateLimitDatabase('64.91.254.36', NULL, Array)\n#4 /home/wsd/public_html/leads/33/api/index.php(115): checkRateLimit()\n#5 {main}"}
+2025-06-24 22:28:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:28:41, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:28:41, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:28:45, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraTest","email":"test@example.com","status":"success","status_code":202}
+2025-06-24 22:28:45, [unified-events], ERROR, Uncaught exception in API, {"message":"Call to undefined function shell_exec()","file":"/home/wsd/public_html/leads/33/api/endpoints/health.php","line":197,"trace":"#0 /home/wsd/public_html/leads/33/api/endpoints/health.php(170): getUptime()\n#1 /home/wsd/public_html/leads/33/api/index.php(156): require_once('/home/wsd/publi...')\n#2 {main}"}
+2025-06-24 22:31:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:31:03, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:31:03, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:31:07, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraTest","email":"test@example.com","status":"success","status_code":202}
+2025-06-24 22:32:56, [unified-events], ERROR, Uncaught exception in API, {"message":"Unclosed '{' on line 300","file":"/home/wsd/public_html/leads/33/src/Services/ValidationService.php","line":314,"trace":"#0 /home/wsd/public_html/leads/33/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/home/wsd/publi...')\n#1 /home/wsd/public_html/leads/33/src/Services/EventProcessor.php(27): Composer\\Autoload\\ClassLoader->loadClass('UnifiedEvents\\\\S...')\n#2 /home/wsd/public_html/leads/33/api/endpoints/lead.php(16): UnifiedEvents\\Services\\EventProcessor->__construct()\n#3 /home/wsd/public_html/leads/33/api/index.php(156): require_once('/home/wsd/publi...')\n#4 {main}"}
+2025-06-24 22:35:25, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:35:25, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:35:25, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:35:25, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"test@example.com","status":"success","status_code":"success"}
+2025-06-24 22:35:25, [unified-events], INFO, Event queued for processing, {"event_id":"873e9909-a4f8-4597-ae93-85891336d178","event_type":"lead","platforms_queued":3,"email":"test@example.com"}
+2025-06-24 22:35:25, [unified-events], INFO, Lead processed successfully, {"email":"test@example.com","event_id":"873e9909-a4f8-4597-ae93-85891336d178","processing_time":0.021999999999999998723243521681069978512823581695556640625}
+2025-06-24 22:36:05, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:36:05, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:36:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:36:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:36:05, [unified-events], ERROR, Query failed, {"sql":"SELECT \r\n                COUNT(CASE WHEN validation_source = 'cache' THEN 1 END) as cache_hits,\r\n                COUNT(*) as total\r\n                FROM processing_log \r\n                WHERE action = 'email_validation' \r\n                AND created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)","params":[],"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'validation_source' in 'SELECT'"}
+2025-06-24 22:36:58, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:36:58, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:36:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:36:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:36:58, [unified-events], ERROR, Query failed, {"sql":"SELECT \r\n                COUNT(CASE WHEN validation_source = 'cache' THEN 1 END) as cache_hits,\r\n                COUNT(*) as total\r\n                FROM processing_log \r\n                WHERE action = 'email_validation' \r\n                AND created_at >= DATE_SUB(NOW(), INTERVAL 7 DAY)","params":[],"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'validation_source' in 'SELECT'"}
+2025-06-24 22:38:09, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:38:09, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:38:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:38:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:38:37, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:38:37, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:38:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:38:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:39:08, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:39:08, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:39:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:39:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:39:39, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:39:39, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:39:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:39:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:40:10, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:40:10, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:40:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:40:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:40:41, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:40:41, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:40:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:40:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:05, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:41:05, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:41:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:05, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:41:05, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","job_id":1,"event_id":1,"platform_id":3,"attempts":0}
+2025-06-24 22:41:05, [unified-events], ERROR, Queue job processing failed, {"job_id":1,"error":"ZeroBounce API key is required"}
+2025-06-24 22:41:05, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","job_id":1,"duration_ms":12.730000000000000426325641456060111522674560546875,"attempts":0}
+2025-06-24 22:41:05, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","job_id":2,"event_id":1,"platform_id":1,"attempts":0}
+2025-06-24 22:41:05, [unified-events], ERROR, Queue job processing failed, {"job_id":2,"error":"ActiveCampaign API key is required"}
+2025-06-24 22:41:05, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","job_id":2,"duration_ms":1.29000000000000003552713678800500929355621337890625,"attempts":0}
+2025-06-24 22:41:05, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4037325_685b61c140da8","job_id":3,"event_id":1,"platform_id":2,"attempts":0}
+2025-06-24 22:41:09, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraIdentify","email":"test@example.com","status":"success","status_code":202}
+2025-06-24 22:41:12, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:41:12, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:41:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:13, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraProcessEmail","email":"test@example.com","status":"success","status_code":202}
+2025-06-24 22:41:43, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:41:43, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:41:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:41:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:42:14, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:42:14, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:42:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:42:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:42:45, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:42:45, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:42:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:42:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:43:16, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:43:16, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:43:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:43:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:43:47, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:43:47, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:43:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:43:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:18, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:44:18, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:44:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:45, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:44:45, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:44:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:45, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4037955_685b629d9a067","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:44:45, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4037955_685b629d9a067"}
+2025-06-24 22:44:45, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4037955_685b629d9a067","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:44:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:44:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:44:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:44:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:45:20, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:45:20, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:45:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:45:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:45:51, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:45:51, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:45:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:45:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:46:22, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:46:22, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:46:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:46:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:46:53, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:46:53, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:46:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:46:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:47:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:47:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4038878_685b63261dba8","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:47:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4038878_685b63261dba8"}
+2025-06-24 22:47:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4038878_685b63261dba8","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:47:24, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:47:24, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:47:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:55, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:47:55, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:47:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:47:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:48:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:48:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4039047_685b6361422eb","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:48:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4039047_685b6361422eb"}
+2025-06-24 22:48:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4039047_685b6361422eb","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:48:26, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:48:26, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:48:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:57, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:48:57, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:48:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:48:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:49:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:49:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4039210_685b639d65691","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:49:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4039210_685b639d65691"}
+2025-06-24 22:49:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4039210_685b639d65691","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:49:28, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:49:28, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:49:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:59, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:49:59, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:49:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:49:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:50:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:50:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:50:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:50:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:50:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4039401_685b63d98da41","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:50:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4039401_685b63d98da41"}
+2025-06-24 22:50:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4039401_685b63d98da41","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:50:30, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:50:30, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:50:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:50:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:51:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:51:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4039896_685b6415aa436","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:51:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4039896_685b6415aa436"}
+2025-06-24 22:51:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4039896_685b6415aa436","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:51:32, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:51:32, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:51:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:51:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:52:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:52:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4040213_685b6451ce85f","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:52:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4040213_685b6451ce85f"}
+2025-06-24 22:52:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4040213_685b6451ce85f","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:52:03, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:52:03, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:52:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:34, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:52:34, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:52:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:52:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:53:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:53:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4040324_685b648df1679","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:53:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4040324_685b648df1679"}
+2025-06-24 22:53:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4040324_685b648df1679","runtime":1,"jobs_processed":0,"errors":0,"jobs_per_minute":0.0}
+2025-06-24 22:53:05, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:53:05, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:53:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:24, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:53:24, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:53:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:24, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"cdflagle@gmail.com","status":"success","status_code":"success"}
+2025-06-24 22:53:24, [unified-events], INFO, Event queued for processing, {"event_id":"00ffd33b-16c8-492d-b0da-dae09971be05","event_type":"lead","platforms_queued":4,"email":"cdflagle@gmail.com"}
+2025-06-24 22:53:24, [unified-events], INFO, Lead processed successfully, {"email":"cdflagle@gmail.com","event_id":"00ffd33b-16c8-492d-b0da-dae09971be05","processing_time":0.025000000000000001387778780781445675529539585113525390625}
+2025-06-24 22:53:32, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:53:32, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:53:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:50, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:53:50, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:53:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:53:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:54:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:54:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:54:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","job_id":5,"event_id":2,"platform_id":3,"attempts":0}
+2025-06-24 22:54:01, [unified-events], ERROR, Queue job processing failed, {"job_id":5,"error":"ZeroBounce API key is required"}
+2025-06-24 22:54:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","job_id":5,"duration_ms":26.510000000000001563194018672220408916473388671875,"attempts":0}
+2025-06-24 22:54:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","job_id":6,"event_id":2,"platform_id":1,"attempts":0}
+2025-06-24 22:54:01, [unified-events], ERROR, Queue job processing failed, {"job_id":6,"error":"ActiveCampaign API key is required"}
+2025-06-24 22:54:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","job_id":6,"duration_ms":1.9499999999999999555910790149937383830547332763671875,"attempts":0}
+2025-06-24 22:54:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040426_685b64c922795","job_id":7,"event_id":2,"platform_id":2,"attempts":0}
+2025-06-24 22:54:05, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraIdentify","email":"cdflagle@gmail.com","status":"success","status_code":202}
+2025-06-24 22:54:09, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraProcessEmail","email":"cdflagle@gmail.com","status":"success","status_code":202}
+2025-06-24 22:54:13, [unified-events], INFO, /* This request has been queued. Learn more about queued events at https://docs.woopra.com/docs/queued-events */, {"type":"WoopraProcessSMS","email":"cdflagle@gmail.com","status":"success","status_code":202}
+2025-06-24 22:54:21, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:54:21, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:54:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:54:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:54:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:49, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"kalola60@hotmail.com","status":"success","status_code":"success"}
+2025-06-24 22:54:49, [unified-events], INFO, Event queued for processing, {"event_id":"1128fc03-42fa-4419-8200-dcb05ebeda5b","event_type":"lead","platforms_queued":4,"email":"kalola60@hotmail.com"}
+2025-06-24 22:54:49, [unified-events], INFO, Lead processed successfully, {"email":"kalola60@hotmail.com","event_id":"1128fc03-42fa-4419-8200-dcb05ebeda5b","processing_time":0.024000000000000000499600361081320443190634250640869140625}
+2025-06-24 22:54:52, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:54:52, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:54:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:54:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:55:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:55:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:55:02, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","job_id":10,"event_id":3,"platform_id":3,"attempts":0}
+2025-06-24 22:55:02, [unified-events], ERROR, Queue job processing failed, {"job_id":10,"error":"ZeroBounce API key is required"}
+2025-06-24 22:55:02, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","job_id":10,"duration_ms":28.269999999999999573674358543939888477325439453125,"attempts":0}
+2025-06-24 22:55:02, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","job_id":11,"event_id":3,"platform_id":1,"attempts":0}
+2025-06-24 22:55:02, [unified-events], ERROR, Queue job processing failed, {"job_id":11,"error":"ActiveCampaign API key is required"}
+2025-06-24 22:55:02, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","job_id":11,"duration_ms":2.020000000000000017763568394002504646778106689453125,"attempts":0}
+2025-06-24 22:55:02, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4040600_685b650601ea3","job_id":12,"event_id":3,"platform_id":2,"attempts":0}
+2025-06-24 22:55:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":false},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":true},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraIdentify","email":"kalola60@hotmail.com","status":"success","status_code":200}
+2025-06-24 22:55:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessEmail","email":"kalola60@hotmail.com","status":"success","status_code":200}
+2025-06-24 22:55:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessSMS","email":"kalola60@hotmail.com","status":"success","status_code":200}
+2025-06-24 22:55:23, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:55:23, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:55:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:51, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:55:51, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:55:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:51, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"awtbwall99@gmail.com","status":"success","status_code":"success"}
+2025-06-24 22:55:51, [unified-events], INFO, Event queued for processing, {"event_id":"0be24bfa-299e-4a9c-b63d-820fb54511c2","event_type":"lead","platforms_queued":4,"email":"awtbwall99@gmail.com"}
+2025-06-24 22:55:51, [unified-events], INFO, Lead processed successfully, {"email":"awtbwall99@gmail.com","event_id":"0be24bfa-299e-4a9c-b63d-820fb54511c2","processing_time":0.025000000000000001387778780781445675529539585113525390625}
+2025-06-24 22:55:52, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:55:52, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:55:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:55, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:55:55, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:55:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:55:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4041099_685b654139312","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:56:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041099_685b654139312","job_id":15,"event_id":4,"platform_id":3,"attempts":0}
+2025-06-24 22:56:01, [unified-events], ERROR, Queue job processing failed, {"job_id":15,"error":"ZeroBounce API key is required"}
+2025-06-24 22:56:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4041099_685b654139312","job_id":15,"duration_ms":26.030000000000001136868377216160297393798828125,"attempts":0}
+2025-06-24 22:56:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041099_685b654139312","job_id":16,"event_id":4,"platform_id":1,"attempts":0}
+2025-06-24 22:56:01, [unified-events], ERROR, Queue job processing failed, {"job_id":16,"error":"ActiveCampaign API key is required"}
+2025-06-24 22:56:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4041099_685b654139312","job_id":16,"duration_ms":1.7600000000000000088817841970012523233890533447265625,"attempts":0}
+2025-06-24 22:56:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041099_685b654139312","job_id":17,"event_id":4,"platform_id":2,"attempts":0}
+2025-06-24 22:56:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":false},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":true},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":false},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraIdentify","email":"awtbwall99@gmail.com","status":"success","status_code":200}
+2025-06-24 22:56:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessEmail","email":"awtbwall99@gmail.com","status":"success","status_code":200}
+2025-06-24 22:56:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessSMS","email":"awtbwall99@gmail.com","status":"success","status_code":200}
+2025-06-24 22:56:17, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:17, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:19, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:19, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:48, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:48, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:48, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:48, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"avilalemni@gmail.com","status":"success","status_code":"success"}
+2025-06-24 22:56:48, [unified-events], INFO, Event queued for processing, {"event_id":"da167c10-df15-4c0b-a45a-c981a127ac00","event_type":"lead","platforms_queued":4,"email":"avilalemni@gmail.com"}
+2025-06-24 22:56:48, [unified-events], INFO, Lead processed successfully, {"email":"avilalemni@gmail.com","event_id":"da167c10-df15-4c0b-a45a-c981a127ac00","processing_time":0.025000000000000001387778780781445675529539585113525390625}
+2025-06-24 22:56:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:49, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"avilalemni@gmail.com","status":"success","status_code":"success"}
+2025-06-24 22:56:49, [unified-events], INFO, Event queued for processing, {"event_id":"91295497-2578-415b-aa07-6abdd49faf54","event_type":"lead","platforms_queued":4,"email":"avilalemni@gmail.com"}
+2025-06-24 22:56:49, [unified-events], INFO, Lead processed successfully, {"email":"avilalemni@gmail.com","event_id":"91295497-2578-415b-aa07-6abdd49faf54","processing_time":0.024000000000000000499600361081320443190634250640869140625}
+2025-06-24 22:56:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:53, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:56:53, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:56:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:56:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:57:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:57:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:57:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","job_id":20,"event_id":5,"platform_id":3,"attempts":0}
+2025-06-24 22:57:01, [unified-events], ERROR, Queue job processing failed, {"job_id":20,"error":"ZeroBounce API key is required"}
+2025-06-24 22:57:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","job_id":20,"duration_ms":25.6099999999999994315658113919198513031005859375,"attempts":0}
+2025-06-24 22:57:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","job_id":21,"event_id":5,"platform_id":1,"attempts":0}
+2025-06-24 22:57:01, [unified-events], ERROR, Queue job processing failed, {"job_id":21,"error":"ActiveCampaign API key is required"}
+2025-06-24 22:57:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","job_id":21,"duration_ms":1.7199999999999999733546474089962430298328399658203125,"attempts":0}
+2025-06-24 22:57:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4041408_685b657de476e","job_id":22,"event_id":5,"platform_id":2,"attempts":0}
+2025-06-24 22:57:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":true},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":true},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":true},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":true},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":false},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraIdentify","email":"avilalemni@gmail.com","status":"success","status_code":200}
+2025-06-24 22:57:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":true},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":true},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":true},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":true},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":false},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessEmail","email":"avilalemni@gmail.com","status":"success","status_code":200}
+2025-06-24 22:57:02, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":true},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":true},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":true},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":true},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":true},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":false},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessSMS","email":"avilalemni@gmail.com","status":"success","status_code":200}
+2025-06-24 22:57:24, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:57:24, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:57:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:55, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:57:55, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:57:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:57:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:58:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:58:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4041548_685b65b9ee2c8","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:58:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4041548_685b65b9ee2c8"}
+2025-06-24 22:58:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4041548_685b65b9ee2c8","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:58:26, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:58:26, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:58:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:57, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:58:57, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:58:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:58:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:59:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:59:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4041690_685b65f51f8e9","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 22:59:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4041690_685b65f51f8e9"}
+2025-06-24 22:59:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4041690_685b65f51f8e9","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 22:59:28, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:59:28, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:59:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:59, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 22:59:59, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 22:59:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 22:59:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:00:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:00:01, [unified-events], INFO, Retry worker started, {"hours_ago":1,"dry_run":false,"platform_filter":null,"limit":1000}
+2025-06-24 23:00:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:00:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:00:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:00:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:00:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4042056_685b663154325","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:00:01, [unified-events], INFO, Found failed jobs to retry, {"count":10,"since":"2025-06-24 22:00:01"}
+2025-06-24 23:00:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4042056_685b663154325"}
+2025-06-24 23:00:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4042056_685b663154325","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:00:30, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:00:30, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:00:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:00:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:01:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:01:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:01:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:01:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4042582_685b666d6c28e","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:01:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4042582_685b666d6c28e"}
+2025-06-24 23:01:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4042582_685b666d6c28e","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:01:32, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:01:32, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:01:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:41, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:01:41, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:01:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:01:41, [unified-events], INFO, Lead processing initiated, {"type":"FileRequest","email":"lovedonna270@gmail.com","status":"success","status_code":"success"}
+2025-06-24 23:01:41, [unified-events], INFO, Event queued for processing, {"event_id":"e3f4488e-6190-4ca1-8121-94a6e4eaa3e1","event_type":"lead","platforms_queued":4,"email":"lovedonna270@gmail.com"}
+2025-06-24 23:01:41, [unified-events], INFO, Lead processed successfully, {"email":"lovedonna270@gmail.com","event_id":"e3f4488e-6190-4ca1-8121-94a6e4eaa3e1","processing_time":0.025000000000000001387778780781445675529539585113525390625}
+2025-06-24 23:02:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:02:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:02:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:02:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:02:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:02:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","job_id":30,"event_id":7,"platform_id":3,"attempts":0}
+2025-06-24 23:02:01, [unified-events], ERROR, Queue job processing failed, {"job_id":30,"error":"ZeroBounce API key is required"}
+2025-06-24 23:02:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","job_id":30,"duration_ms":26.64999999999999857891452847979962825775146484375,"attempts":0}
+2025-06-24 23:02:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","job_id":31,"event_id":7,"platform_id":1,"attempts":0}
+2025-06-24 23:02:01, [unified-events], ERROR, Queue job processing failed, {"job_id":31,"error":"ActiveCampaign API key is required"}
+2025-06-24 23:02:01, [unified-events], WARNING, Job failed, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","job_id":31,"duration_ms":1.70999999999999996447286321199499070644378662109375,"attempts":0}
+2025-06-24 23:02:01, [unified-events], INFO, Processing job, {"worker_id":"host03.trklvr.com_4042853_685b66a990d94","job_id":32,"event_id":7,"platform_id":2,"attempts":0}
+2025-06-24 23:02:03, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:02:03, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:02:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:02:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:02:04, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":false},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":false},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":true},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":false},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraIdentify","email":"lovedonna270@gmail.com","status":"success","status_code":200}
+2025-06-24 23:02:05, [unified-events], INFO, if(typeof(window.woopra)!='undefined'){ window.woopra.labels={"qgxaf09pis":{"color":"#ffeb3b","name":"Fulfillment Reader","status":false},"a8a2qv0lcq":{"color":"#4caf50","name":"Purchasers","status":false},"jhleecj1ix":{"color":"#03a9f4","name":"Hasn't Engaged w/ Email in 30 Days","status":true},"qmgsmstp1y":{"color":"#ffeb3b","name":"IM Uploads","status":false},"brsau3s0sk":{"color":"#2196f3","name":"Top Stocks Sub","status":false},"koqvkapafu":{"color":"#03a9f4","name":"Suppress from SR - CPF","status":false},"4w4mysavqk":{"color":"#f44336","name":"Cobranded Subs","status":false},"dnyi4fjeuh":{"color":"#4caf50","name":"Suppress from SR - SDW","status":false},"55lqumhztd":{"color":"#2196f3","name":"Dividends Sub","status":false},"ecbaaohk2g":{"color":"#8bc34a","name":"Dead Clickers (45D)","status":false},"kpgauibz2i":{"color":"#9c27b0","name":"Gold Sub","status":true},"ur53cuyzqh":{"color":"#9c29b7","name":"Cobranded","status":false},"t4ies8lxun":{"color":"#f44336","name":"Dead Non Clickers - 30-days","status":false},"ynqszlpkxb":{"color":"#cddc39","name":"Energy Sub","status":false},"x1jp1ozy4y":{"color":"#009688","name":"Suppress from Legacy","status":false},"dwwi63vl4r":{"color":"#ffc107","name":"Crash/Econ Sub","status":false},"fnmtksff5a":{"color":"#4caf50","name":"30D Email Openers","status":false},"w51j98r0sl":{"color":"#9c29b7","name":"Cobranded","status":false},"ayhjzpb6q9":{"color":"#ff5722","name":"On Suppression List","status":false},"aje6yalujd":{"color":"#f44336","name":"Subs from Google","status":true},"cwvzo0nc4n":{"color":"#673ab7","name":"Semiconductors Sub","status":false},"rgjivs6pkd":{"color":"#3f51b5","name":"Email Exists","status":true},"zxkemahyv2":{"color":"#00bcd4","name":"Suppress from IPM - Launch","status":false},"n0cwgnrrod":{"color":"#2196f3","name":"Not on Suppression List","status":true},"ryrxfkw18k":{"color":"#00bcd4","name":"Rare Earth Sub","status":false},"ukqvwrwhsr":{"color":"#ff9800","name":"Is On Desktop","status":true},"4ixti4mivc":{"color":"#4caf50","name":"Non Buyers","status":true},"dyitnyf3yz":{"color":"#3f51b5","name":"Buyers","status":false}}; } , {"type":"WoopraProcessEmail","email":"lovedonna270@gmail.com","status":"success","status_code":200}
+2025-06-24 23:02:34, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:02:34, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:02:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:02:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:03:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:03:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4042951_685b66e570fcd","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:03:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4042951_685b66e570fcd"}
+2025-06-24 23:03:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4042951_685b66e570fcd","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:03:05, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:03:05, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:03:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:36, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:03:36, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:03:36, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:03:36, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:04:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:04:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4043111_685b672196b40","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:04:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4043111_685b672196b40"}
+2025-06-24 23:04:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4043111_685b672196b40","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:04:07, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:04:07, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:04:07, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:07, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:38, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:04:38, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:04:38, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:04:38, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:05:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:05:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4043340_685b675dc9ed0","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:05:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4043340_685b675dc9ed0"}
+2025-06-24 23:05:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4043340_685b675dc9ed0","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:05:09, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:05:09, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:05:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:40, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:05:40, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:05:40, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:05:40, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:06:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:06:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4043853_685b6799ec5ed","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:06:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4043853_685b6799ec5ed"}
+2025-06-24 23:06:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4043853_685b6799ec5ed","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:06:11, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:06:11, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:06:11, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:11, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:42, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:06:42, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:06:42, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:06:42, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:07:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:07:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4044142_685b67d61d477","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:07:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4044142_685b67d61d477"}
+2025-06-24 23:07:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4044142_685b67d61d477","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:07:13, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:07:13, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:07:13, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:13, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:44, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:07:44, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:07:44, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:07:44, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:08:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:08:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4044239_685b6811413f5","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:08:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4044239_685b6811413f5"}
+2025-06-24 23:08:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4044239_685b6811413f5","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:08:15, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:08:15, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:08:15, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:15, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:46, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:08:46, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:08:46, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:08:46, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:09:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:09:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4044347_685b684d69f32","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:09:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4044347_685b684d69f32"}
+2025-06-24 23:09:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4044347_685b684d69f32","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:09:17, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:09:17, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:09:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:48, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:09:48, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:09:48, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:09:48, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:10:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:10:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4044536_685b6889b653c","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:10:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4044536_685b6889b653c"}
+2025-06-24 23:10:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4044536_685b6889b653c","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:10:19, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:10:19, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:10:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:50, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:10:50, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:10:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:10:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:11:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:11:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4045066_685b68c5ce27b","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:11:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4045066_685b68c5ce27b"}
+2025-06-24 23:11:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4045066_685b68c5ce27b","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:11:21, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:11:21, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:11:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:52, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:11:52, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:11:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:11:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:12:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:12:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4045356_685b6901f0fa1","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:12:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4045356_685b6901f0fa1"}
+2025-06-24 23:12:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4045356_685b6901f0fa1","runtime":1,"jobs_processed":0,"errors":0,"jobs_per_minute":0.0}
+2025-06-24 23:12:23, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:12:23, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:12:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:54, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:12:54, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:12:54, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:12:54, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:13:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:13:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4045447_685b693d2027f","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:13:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4045447_685b693d2027f"}
+2025-06-24 23:13:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4045447_685b693d2027f","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:13:25, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:13:25, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:13:25, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:25, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:56, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:13:56, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:13:56, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:13:56, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:14:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:14:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4045842_685b6979447dd","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:14:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4045842_685b6979447dd"}
+2025-06-24 23:14:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4045842_685b6979447dd","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:14:27, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:14:27, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:14:27, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:27, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:58, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:14:58, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:14:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:14:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:15:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:15:01, [unified-events], INFO, Retry worker started, {"hours_ago":1,"dry_run":false,"platform_filter":null,"limit":1000}
+2025-06-24 23:15:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:15:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:15:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:15:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:15:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4046028_685b69b57abb1","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:15:01, [unified-events], INFO, Found failed jobs to retry, {"count":12,"since":"2025-06-24 22:15:01"}
+2025-06-24 23:15:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4046028_685b69b57abb1"}
+2025-06-24 23:15:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4046028_685b69b57abb1","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:15:29, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:15:29, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:15:29, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:15:29, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:00, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:16:00, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:16:00, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:00, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:16:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:16:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4046548_685b69f19f5b0","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:16:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4046548_685b69f19f5b0"}
+2025-06-24 23:16:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4046548_685b69f19f5b0","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:16:31, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:16:31, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:16:31, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:16:31, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:17:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:17:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4046829_685b6a2dc2db3","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:17:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4046829_685b6a2dc2db3"}
+2025-06-24 23:17:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4046829_685b6a2dc2db3","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:17:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:17:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:17:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:33, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:17:33, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:17:33, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:17:33, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:18:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:18:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4046955_685b6a69e71cd","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:18:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4046955_685b6a69e71cd"}
+2025-06-24 23:18:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4046955_685b6a69e71cd","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:18:04, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:18:04, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:18:04, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:04, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:35, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:18:35, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:18:35, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:18:35, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:19:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:19:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4047094_685b6aa616e9e","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:19:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4047094_685b6aa616e9e"}
+2025-06-24 23:19:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4047094_685b6aa616e9e","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:19:06, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:19:06, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:19:06, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:06, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:37, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:19:37, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:19:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:19:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:20:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:20:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4047270_685b6ae1423ce","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:20:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4047270_685b6ae1423ce"}
+2025-06-24 23:20:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4047270_685b6ae1423ce","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:20:08, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:20:08, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:20:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:39, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:20:39, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:20:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:20:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:21:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:21:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4047787_685b6b1d57cd7","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:21:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4047787_685b6b1d57cd7"}
+2025-06-24 23:21:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4047787_685b6b1d57cd7","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:21:10, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:21:10, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:21:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:41, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:21:41, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:21:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:21:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:22:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:22:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4048086_685b6b597acde","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:22:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4048086_685b6b597acde"}
+2025-06-24 23:22:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4048086_685b6b597acde","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:22:12, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:22:12, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:22:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:43, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:22:43, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:22:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:22:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:23:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:23:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4048254_685b6b959f8c9","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:23:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4048254_685b6b959f8c9"}
+2025-06-24 23:23:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4048254_685b6b959f8c9","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:23:14, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:23:14, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:23:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:45, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:23:45, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:23:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:23:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:24:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:24:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4048381_685b6bd1c41ff","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:24:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4048381_685b6bd1c41ff"}
+2025-06-24 23:24:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4048381_685b6bd1c41ff","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:24:16, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:24:16, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:24:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:47, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:24:47, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:24:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:24:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:25:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:25:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4048540_685b6c0df040c","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:25:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4048540_685b6c0df040c"}
+2025-06-24 23:25:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4048540_685b6c0df040c","runtime":1,"jobs_processed":0,"errors":0,"jobs_per_minute":0.0}
+2025-06-24 23:25:18, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:25:18, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:25:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:25:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:25:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:25:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:26:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:26:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4049042_685b6c493249d","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:26:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4049042_685b6c493249d"}
+2025-06-24 23:26:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4049042_685b6c493249d","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:26:20, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:26:20, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:26:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:51, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:26:51, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:26:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:26:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:27:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:27:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4049337_685b6c8555a54","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:27:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4049337_685b6c8555a54"}
+2025-06-24 23:27:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4049337_685b6c8555a54","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:27:22, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:27:22, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:27:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:53, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:27:53, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:27:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:27:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:28:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:28:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4049453_685b6cc179483","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:28:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4049453_685b6cc179483"}
+2025-06-24 23:28:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4049453_685b6cc179483","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:28:24, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:28:24, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:28:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:55, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:28:55, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:28:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:28:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:29:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:29:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4049561_685b6cfd9f841","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:29:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4049561_685b6cfd9f841"}
+2025-06-24 23:29:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4049561_685b6cfd9f841","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:29:26, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:29:26, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:29:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:26, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:57, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:29:57, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:29:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:29:57, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:30:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:30:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4049747_685b6d39ceeb9","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:30:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:01, [unified-events], INFO, Retry worker started, {"hours_ago":1,"dry_run":false,"platform_filter":null,"limit":1000}
+2025-06-24 23:30:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4049747_685b6d39ceeb9"}
+2025-06-24 23:30:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4049747_685b6d39ceeb9","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:30:01, [unified-events], INFO, Found failed jobs to retry, {"count":12,"since":"2025-06-24 22:30:01"}
+2025-06-24 23:30:28, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:30:28, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:30:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:28, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:59, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:30:59, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:30:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:30:59, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:31:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:31:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:31:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:31:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:31:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4050249_685b6d75e9f81","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:31:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4050249_685b6d75e9f81"}
+2025-06-24 23:31:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4050249_685b6d75e9f81","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:31:30, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:31:30, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:31:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:31:30, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:32:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:32:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:32:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:32:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4050522_685b6db2187ec","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:32:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4050522_685b6db2187ec"}
+2025-06-24 23:32:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4050522_685b6db2187ec","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:32:32, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:32:32, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:32:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:32:32, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:33:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:33:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4050625_685b6ded3b98e","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:33:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4050625_685b6ded3b98e"}
+2025-06-24 23:33:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4050625_685b6ded3b98e","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:33:03, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:33:03, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:33:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:03, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:34, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:33:34, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:33:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:33:34, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:34:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:34:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4050752_685b6e295ee30","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:34:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4050752_685b6e295ee30"}
+2025-06-24 23:34:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4050752_685b6e295ee30","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:34:05, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:34:05, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:34:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:05, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:36, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:34:36, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:34:36, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:34:36, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:35:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:35:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4050911_685b6e658a4a7","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:35:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4050911_685b6e658a4a7"}
+2025-06-24 23:35:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4050911_685b6e658a4a7","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:35:07, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:35:07, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:35:07, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:07, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:38, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:35:38, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:35:38, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:35:38, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:36:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:36:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4051419_685b6ea1a3245","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:36:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4051419_685b6ea1a3245"}
+2025-06-24 23:36:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4051419_685b6ea1a3245","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:36:09, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:36:09, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:36:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:09, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:40, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:36:40, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:36:40, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:36:40, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:37:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:37:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4051729_685b6eddc5e46","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:37:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4051729_685b6eddc5e46"}
+2025-06-24 23:37:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4051729_685b6eddc5e46","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:37:11, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:37:11, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:37:11, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:11, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:42, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:37:42, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:37:42, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:37:42, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:38:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:38:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4051834_685b6f19e97e9","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:38:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4051834_685b6f19e97e9"}
+2025-06-24 23:38:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4051834_685b6f19e97e9","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:38:13, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:38:13, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:38:13, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:13, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:44, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:38:44, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:38:44, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:38:44, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:39:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:39:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4051941_685b6f561c489","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:39:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4051941_685b6f561c489"}
+2025-06-24 23:39:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4051941_685b6f561c489","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:39:15, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:39:15, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:39:15, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:15, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:46, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:39:46, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:39:46, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:39:46, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:40:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:40:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4052181_685b6f91dbd95","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:40:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4052181_685b6f91dbd95"}
+2025-06-24 23:40:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4052181_685b6f91dbd95","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:40:17, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:40:17, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:40:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:17, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:48, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:40:48, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:40:48, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:40:48, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:41:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:41:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4052815_685b6fcdf2696","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:41:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4052815_685b6fcdf2696"}
+2025-06-24 23:41:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4052815_685b6fcdf2696","runtime":1,"jobs_processed":0,"errors":0,"jobs_per_minute":0.0}
+2025-06-24 23:41:19, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:41:19, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:41:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:19, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:50, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:41:50, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:41:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:41:50, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:42:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:42:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4053084_685b700924379","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:42:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4053084_685b700924379"}
+2025-06-24 23:42:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4053084_685b700924379","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:42:21, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:42:21, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:42:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:21, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:52, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:42:52, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:42:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:42:52, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:43:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:43:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4053175_685b704547eb0","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:43:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4053175_685b704547eb0"}
+2025-06-24 23:43:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4053175_685b704547eb0","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:43:23, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:43:23, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:43:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:23, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:54, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:43:54, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:43:54, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:43:54, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:44:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:44:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4053299_685b70816f476","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:44:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4053299_685b70816f476"}
+2025-06-24 23:44:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4053299_685b70816f476","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:44:25, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:44:25, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:44:25, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:25, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:56, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:44:56, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:44:56, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:44:56, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:01, [unified-events], INFO, Retry worker started, {"hours_ago":1,"dry_run":false,"platform_filter":null,"limit":1000}
+2025-06-24 23:45:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:45:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:45:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4053504_685b70bd9d8ad","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:45:01, [unified-events], INFO, Found failed jobs to retry, {"count":10,"since":"2025-06-24 22:45:01"}
+2025-06-24 23:45:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4053504_685b70bd9d8ad"}
+2025-06-24 23:45:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4053504_685b70bd9d8ad","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:45:27, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:45:27, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:45:27, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:27, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:58, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:45:58, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:45:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:45:58, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:46:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:46:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:46:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:46:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:46:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4053999_685b70f9c489a","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:46:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4053999_685b70f9c489a"}
+2025-06-24 23:46:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4053999_685b70f9c489a","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:46:29, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:46:29, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:46:29, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:46:29, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:00, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:47:00, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:47:00, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:00, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:47:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:47:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4054265_685b7135ea574","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:47:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4054265_685b7135ea574"}
+2025-06-24 23:47:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4054265_685b7135ea574","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:47:31, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:47:31, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:47:31, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:47:31, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:48:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:48:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:48:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:48:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4054420_685b71721b8b5","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:48:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4054420_685b71721b8b5"}
+2025-06-24 23:48:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4054420_685b71721b8b5","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:48:33, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:48:33, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:48:33, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:48:33, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:49:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:49:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4054560_685b71ad41734","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:49:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4054560_685b71ad41734"}
+2025-06-24 23:49:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4054560_685b71ad41734","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:49:04, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:49:04, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:49:04, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:04, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:35, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:49:35, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:49:35, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:49:35, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:50:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:50:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4054743_685b71e969cfb","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:50:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4054743_685b71e969cfb"}
+2025-06-24 23:50:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4054743_685b71e969cfb","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:50:06, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:50:06, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:50:06, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:06, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:37, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:50:37, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:50:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:50:37, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:51:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:51:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4055228_685b72258e112","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:51:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4055228_685b72258e112"}
+2025-06-24 23:51:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4055228_685b72258e112","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:51:08, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:51:08, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:51:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:08, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:39, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:51:39, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:51:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:51:39, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:52:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:52:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4055407_685b7261b307d","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:52:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4055407_685b7261b307d"}
+2025-06-24 23:52:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4055407_685b7261b307d","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:52:10, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:52:10, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:52:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:10, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:41, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:52:41, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:52:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:52:41, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:53:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:53:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4055614_685b729dd675d","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:53:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4055614_685b729dd675d"}
+2025-06-24 23:53:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4055614_685b729dd675d","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:53:12, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:53:12, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:53:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:12, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:43, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:53:43, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:53:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:53:43, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:02, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:54:02, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:54:02, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:02, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4055715_685b72da077f1","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:54:02, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4055715_685b72da077f1"}
+2025-06-24 23:54:02, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4055715_685b72da077f1","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:54:14, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:54:14, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:54:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:14, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:45, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:54:45, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:54:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:54:45, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:55:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:55:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4055882_685b73153315b","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:55:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4055882_685b73153315b"}
+2025-06-24 23:55:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4055882_685b73153315b","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:55:16, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:55:16, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:55:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:16, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:47, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:55:47, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:55:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:55:47, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:56:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:56:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4056374_685b73514fcf0","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:56:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4056374_685b73514fcf0"}
+2025-06-24 23:56:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4056374_685b73514fcf0","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:56:18, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:56:18, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:56:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:18, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:49, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:56:49, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:56:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:56:49, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:57:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:57:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4056534_685b738d73df1","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:57:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4056534_685b738d73df1"}
+2025-06-24 23:57:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4056534_685b738d73df1","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:57:20, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:57:20, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:57:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:20, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:51, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:57:51, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:57:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:57:51, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:58:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:58:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4056759_685b73c997c84","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:58:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4056759_685b73c997c84"}
+2025-06-24 23:58:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4056759_685b73c997c84","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:58:22, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:58:22, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:58:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:22, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:53, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:58:53, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:58:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:58:53, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:01, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:59:01, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:59:01, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:01, [unified-events], INFO, Queue worker started, {"worker_id":"host03.trklvr.com_4056888_685b7405bcfd9","run_once":true,"batch_size":100,"sleep_time":5,"max_runtime":3600}
+2025-06-24 23:59:01, [unified-events], INFO, No jobs available, exiting (--once mode), {"worker_id":"host03.trklvr.com_4056888_685b7405bcfd9"}
+2025-06-24 23:59:01, [unified-events], INFO, Queue worker shutting down, {"worker_id":"host03.trklvr.com_4056888_685b7405bcfd9","runtime":0,"jobs_processed":0,"errors":0,"jobs_per_minute":0}
+2025-06-24 23:59:24, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:59:24, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:59:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:24, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:55, [unified-events], INFO, Loaded platforms, {"count":6}
+2025-06-24 23:59:55, [unified-events], INFO, Loaded routing rules, {"event_types":["lead"],"total_rules":5}
+2025-06-24 23:59:55, [unified-events], WARNING, Redis not available, using database queue only, []
+2025-06-24 23:59:55, [unified-events], WARNING, Redis not available, using database queue only, []
